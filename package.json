@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "baileyz": "1.0.8",
+    "baileys-elite": "*",
     "express": "^4.18.2",
     "fs-extra": "^11.2.0",
     "pino": "^8.17.0",
@@ -25,11 +25,15 @@
     "moment-timezone": "^0.6.0",
     "mongodb": "^5.7.0",
     "fluent-ffmpeg": "^2.1.2",
-    "@ffmpeg-installer/ffmpeg": "latest"
+    "@ffmpeg-installer/ffmpeg": "latest",
+    "dotenv": "^16.0.3",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.32.0",
+    "mime-types": "^2.1.35"
   },
   "overrides": {
     "jimp": "^0.22.12",
-    "sharp": "0.34.5"
+    "sharp": "0.32.6"
   },
   "engines": {
     "node": ">=20.x"
@@ -38,9 +42,9 @@
     "whatsapp",
     "bot",
     "multi-device",
-    "baileys",
+    "baileys-elite",
     "shala-md-beta"
   ],
   "author": "NETHMIKA KAUSHALYA",
-  "license": "MTI"
+  "license": "MIT"
 }
